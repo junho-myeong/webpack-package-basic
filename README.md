@@ -87,3 +87,12 @@ module.exports = {
 ## babel
 - npm i @babel/core @babel/preset-env @babel/plugin-transform-runtime
 - npm i babel-loader -D
+
+## netlify 배포
+
+## npx, degit
+- 커맨드를 통해서 parcel이라던지, webpack에서 사용한 파일 가져오기
+- npx degit(npx명령어를 통해 degit을 따로 설치하지 않아도 사용할수 잇다.)
+- degit은 원격 저장소를 현재 폴더에 다운로드 받을수 잇게 해준다.
+- npx degit junho/webpack-temlpate-basic webpack-temlpate-test (basic이라는 저장소에 내용을 test라는 폴더에 다운로드 받겠다)
+- 이렇게 다운로드 받으면 버전 관리가 된상태가 아니다, 그래서 템플릿으로 이용할때 사용하는것이 좋다, 그래서 git clone을 사용하는것은 버전까지 가져오기 때문에 템플릿으로 사용하기는 좋지 않다.
