@@ -9,6 +9,11 @@
   "webpack-cli": "^4.10.0", - webpack에서 제공하는 기능을 cli로 사용하겠다는 코드
   "webpack-dev-server": "^4.0.0-rc.1" - 개발용서버를 열때 parcel처럼 저장과 동시에 자동으로 적용 시키는 코드
 - 서버를 열기 위해서는 webpack에 구성 옵션도 추가해야한다.(webpack.config.js 파일에) parcel과의 차이점 이자, 단점이기도 하다
+``` JSON
+devServer: {
+    host: 'localhost'
+  }
+```
 
 ## entry,output
 ```webpack
